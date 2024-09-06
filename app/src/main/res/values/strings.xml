@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aplicacioniot</string>
+    <string name="nombreapellido">Nombre y Apellido</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="btningresar">Ingresar</string>
+    <string name="btniniciosesion">Inicio sesion</string>
+    <string name="btnregistrar">Registrar</string>
+    <string name="usuario">Usuario</string>"
+    <string name="repetircontrasenia">Ingrese nuevamente su contraseña</string>
+    <string name="correo">Correo</string>"
+    <string name="perfil">Perfil</string>
+    <string name="inicio">Inicio</string>
+    <string name="resenias">Reseñas</string>
+    <string name="servicios">Servicios</string>
+    <string name="busqueda">Buscar materia/informacion...</string>
+    <string name="btnlenguaje">Lenguaje</string>
+    <string name="lenguajei">Lenguaje y comunicacion</string>
+    <string name="btndescripcion">El lenguaje es la capacidad que tiene el ser humano para expresarse y comunicarse, a través de diversos sistemas de signos: orales, escritos o gestuales. La comunicación requiere de este sistema de signos para llegar al objetivo del entendimiento común.</string>
+    <string name="subir">Guardar</string>
+    <string name="miusuario">Guido Araya</string>
+    <string name="micontrasenia">******</string>
+    <string name="micorreo">guidoandres@gmail.com</string>
+    <string name="btnperfil">Actualizar</string>"
+</resources>
