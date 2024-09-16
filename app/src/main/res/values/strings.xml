@@ -21,4 +21,14 @@
     <string name="micontrasenia">******</string>
     <string name="micorreo">guidoandres@gmail.com</string>
     <string name="btnperfil">Actualizar</string>"
+    <string name="bienvenido">Bienvenido, Guido Araya</string>
+    <string name="agregar_materia">Agregar asignatura...</string>
+    <string name="Informes">Elementos subidos...</string>
+    <string name="reportes">Reportes hechos...</string>
+    <string name="agregarnombre">Agregue nombre a la asignatura...</string>
+    <string name="agregardescripcion">Agregue una descripcion...</string>"
+    <string name="subirmateria">Subir</string>
+    <string name="Datoscargados">Elementos subidos</string>
+    <string name="Reporteshechos">Reportes subidos</string>
+    <string name="btnreportar">Reportar elemento</string>
 </resources>

@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Aplicacioniot"
         tools:targetApi="31">
         <activity
+            android:name=".reportes"
+            android:exported="false" />
+        <activity
+            android:name=".informes"
+            android:exported="false" />
+        <activity
+            android:name=".agregar_asignatura"
+            android:exported="false" />
+        <activity
+            android:name=".tablaservicios"
+            android:exported="false" />
+        <activity
+            android:name=".servicios"
+            android:exported="false" />
+        <activity
             android:name=".perfil"
             android:exported="false" />
         <activity

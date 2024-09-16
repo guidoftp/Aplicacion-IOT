@@ -5,22 +5,16 @@
     <item
         android:id="@+id/op1"
         android:icon="@drawable/ic_action_name"
-        android:orderInCategory="1"
         android:title="@string/perfil"
-        app:showAsAction="withText" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/op2"
         android:icon="@drawable/inicio"
         android:title="@string/inicio"
-        app:showAsAction="withText" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/op3"
-        android:icon="@drawable/resenias"
-        android:title="@string/resenias"
-        app:showAsAction="withText" />
-    <item
-        android:id="@+id/op4"
         android:icon="@drawable/servicios"
         android:title="@string/servicios"
-        app:showAsAction="withText" />
+        app:showAsAction="ifRoom" />
 </menu>

@@ -27,10 +27,38 @@ public class lenguaje extends AppCompatActivity {
 
         Intent i = new Intent (this,inicio.class);
         startActivity(i);
+    }
+    //PARTE DE Asingatura
 
+    public void calificacionAsig (View v){
 
+        //Intent i = new Intent (this,calificacionasignatura.class);
+        //startActivity(i);
+    }
 
+    public void reportarAsig (View v){
 
+        //Intent i = new Intent (this,reportarasignatura.class);
+        //startActivity(i);
 
+    }
+    //PARTE DE MATERIA
+
+    public void editarMateria (View v){
+
+        //Intent i = new Intent (this,editarmateria.class);
+        //startActivity(i);
+    }
+
+    public void calificacionMat(View v){
+
+        //Intent i = new Intent (this,calificacionmateria.class);
+        //startActivity(i);
+    }
+
+    public void reportarMat (View v){
+
+        //Intent i = new Intent (this,reportarmateria.class);
+        //startActivity(i);
     }
 }

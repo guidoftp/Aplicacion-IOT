@@ -58,16 +58,18 @@ public class inicio extends AppCompatActivity {
 
         }
         else if(id==R.id.op2){
-            Toast.makeText(this,"Inicio",Toast.LENGTH_SHORT).show();
             //poner otra pagina
+
+
         }
+
         else if(id==R.id.op3){
-            Toast.makeText(this,"Resenias",Toast.LENGTH_SHORT).show();
+
             //poner otra pagina
-        }
-        else if(id==R.id.op4){
-            Toast.makeText(this,"Servicios",Toast.LENGTH_SHORT).show();
-            //poner otra pagina
+
+            Intent i = new Intent(this,tablaservicios.class);
+            startActivity(i);
+            
         }
         return super.onOptionsItemSelected(item);
     }
