@@ -31,4 +31,13 @@
     <string name="Datoscargados">Elementos subidos</string>
     <string name="Reporteshechos">Reportes subidos</string>
     <string name="btnreportar">Reportar elemento</string>
+    <string name="calificarasig">Califica esta asignatura...</string>
+    <string name="agregarcomentario">Dejanos tus comentarios...</string>
+    <string name="ejemplo">Muy buena la asignatura de lenguaje y esta muy completa :)</string>
+    <string name="reportar">Reportar asignatura...</string>
+    <string name="report1">Me disgusta lo subido...</string>
+    <string name="report2">No tiene coherencia lo subido...</string>
+    <string name="report3">Otro...</string>"
+    <string name="regresar">Volver</string>
+    <string name="placeholder1">Dinos el porque ocurrio esto....</string>
 </resources>

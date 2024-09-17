@@ -10,55 +10,41 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class lenguaje extends AppCompatActivity {
+public class reportarasignatura extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_lenguaje);
+        setContentView(R.layout.activity_reportarasignatura);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
-    public void guardar (View v){
-
-        Intent i = new Intent (this,inicio.class);
-        startActivity(i);
-    }
-    //PARTE DE Asingatura
-
-    public void calificacionAsig (View v){
-
-        Intent i = new Intent (this,calificacionasignatura.class);
-        startActivity(i);
-    }
-
-    public void reportarAsig (View v){
-
-        Intent i = new Intent (this,reportarasignatura.class);
+    public void report1 (View v){
+        Intent i = new Intent(this,reporte1.class);
         startActivity(i);
 
     }
-    //PARTE DE MATERIA
 
-    public void editarMateria (View v){
+    public void report2 (View v){
+        Intent i = new Intent(this,reporte2.class);
+        startActivity(i);
 
-        //Intent i = new Intent (this,editarmateria.class);
-        //startActivity(i);
     }
 
-    public void calificacionMat(View v){
+    public void report3 (View v){
+        Intent i = new Intent(this,reporte3.class);
+        startActivity(i);
 
-        //Intent i = new Intent (this,calificacionmateria.class);
-        //startActivity(i);
     }
 
-    public void reportarMat (View v){
+    public void volver (View v){
 
-        //Intent i = new Intent (this,reportarmateria.class);
-        //startActivity(i);
+        Intent i = new Intent(this,inicio.class);
+
     }
+
 }
