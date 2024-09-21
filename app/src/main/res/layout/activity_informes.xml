@@ -13,7 +13,7 @@
         android:layout_height="136dp"
         android:backgroundTint="#FF6961"
         android:hint="@string/btndescripcion"
-        android:onClick="inicio"
+        android:onClick="informecreado"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#000000"

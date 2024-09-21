@@ -40,4 +40,22 @@
     <string name="report3">Otro...</string>"
     <string name="regresar">Volver</string>
     <string name="placeholder1">Dinos el porque ocurrio esto....</string>
+    <string name="editarmateria">Estas por editar Lenguaje y comunicacion...</string>
+    <string name="editarTitulo">Las Vocales</string>
+    <string name="editarnombre">Editar</string>
+    <string name="ejemploedit">Las vocales son letras que suenan por sí mismas y sus sonidos son fácilmente pronunciados con la voz. </string>
+    <string name="calificaion1">Deficiente</string>
+    <string name="califacion2">Mala</string>
+    <string name="califacion3">Buena</string>
+    <string name="califacion4">Excelente</string>"
+    <string name="reportarmateria">Reportar materia sobre "Lenguaje y comunicacion/Las vocales"</string>
+    <string name="reporte1">No se explica del todo bien</string>
+    <string name="reporte2">No tiene coherencia</string>
+    <string name="reporte3">Otro..</string>
+    <string name="editarelperfil">Editar perfil</string>
+    <string name="cambiarNombre">Desea cambiar su Nombre y Apellido</string>
+    <string name="cambiarCorreo">Desea cambiar su Correo...</string>
+    <string name="cambiarContrasenia">Desea cambiar su Contraseña...</string>
+    <string name="ingresenuevamente">Ingrese nuevamente su nueva Contraseña...</string>""
+
 </resources>

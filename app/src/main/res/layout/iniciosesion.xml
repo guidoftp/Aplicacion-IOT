@@ -35,14 +35,17 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="316dp"
-        android:layout_height="36dp"
-        android:layout_marginBottom="44dp"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
         android:text="Bienvenido"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
 
     <Button
         android:id="@+id/button"
@@ -111,5 +114,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contrasenia"
         app:layout_constraintVertical_bias="0.406" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="205dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33"
+        app:srcCompat="@drawable/img" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

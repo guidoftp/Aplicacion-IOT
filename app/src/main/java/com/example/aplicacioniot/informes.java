@@ -28,4 +28,9 @@ public class informes extends AppCompatActivity {
         Intent i = new Intent(this,inicio.class);
         startActivity(i);
     }
+    public void informecreado (View v){
+        Intent i = new Intent(this,lenguaje.class);
+        startActivity(i);
+
+    }
 }

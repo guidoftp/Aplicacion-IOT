@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Aplicacioniot"
         tools:targetApi="31">
         <activity
+            android:name=".editarperfil"
+            android:exported="false" />
+        <activity
+            android:name=".reportemateria_3"
+            android:exported="false" />
+        <activity
+            android:name=".reportemateria_2"
+            android:exported="false" />
+        <activity
+            android:name=".reportemateria_1"
+            android:exported="false" />
+        <activity
+            android:name=".reportarmateria"
+            android:exported="false" />
+        <activity
+            android:name=".calificacionmateria"
+            android:exported="false" />
+        <activity
+            android:name=".editarmateria"
+            android:exported="false" />
+        <activity
             android:name=".reporte3"
             android:exported="false" />
         <activity
